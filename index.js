@@ -8,12 +8,7 @@ require('dotenv').config();
 const API_KEY = process.env.GEMINI_API_KEY;
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 const allowedContacts = [
-    '919860341863',
-    '919975690720',
-    '918624079044',
-    '917276974942',
-    '919766806015',
-    '918605475357',
+    // Add your allowed numbers here
 ];
 
 // Initialize WhatsApp client
